@@ -86,7 +86,7 @@ public class TouchCollector {
                         found = true;
                     }
                 }
-            } catch (NoClassDefFoundError ncdfe) {
+            } catch (NoClassDefFoundError | ClassNotFoundException ncdfe) {
                 // "Expected", try described fallback
             }
 
